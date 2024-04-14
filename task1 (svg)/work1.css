@@ -1,0 +1,38 @@
+.btn-changeIcon {
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(165, 216, 244);
+    border: 1px solid rgb(173, 185, 188);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.btn-text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.btn-changeIcon:hover{
+    background-color: rgb(87, 167, 228);
+}
+
+.btn-icon1{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.btn-icon2{
+    display: none;
+}
+
+.btn-icon1.first{
+    display: none;
+}
+.btn-icon2.first{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
